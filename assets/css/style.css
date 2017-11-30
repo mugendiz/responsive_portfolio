@@ -1,0 +1,176 @@
+.everything {
+  bottom: 0;
+}
+
+.group:after {
+  content: "containerWhite";
+  display: table;
+  clear: both;
+}
+
+.containerWhite {
+  top: 0;
+  background-color: white;
+  width: auto;
+}
+
+.headerBox {
+  margin: auto;
+  width: 960px;
+  background: white;
+  margin-bottom: grey 10px;
+
+}
+
+.pageTitle {
+
+  font-family: serif;
+  width: 300px;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 10px;
+  padding: 20px;
+  color: white;
+  align-items: center;
+  background-color: #0CADA7;
+}
+
+.navMenu {
+  float: right;
+  margin: 0;
+  right: 0;
+  font-size: 20px;
+  font-family: serif;
+  color: darkgrey;
+  margin-top: 10px;
+  padding: 30px;
+  margin-right: 60px;
+  margin-left: 20px;
+}
+
+.container1 {
+  background-color: lightgray;
+
+}
+
+.container2 {
+  margin: auto;
+  width: 960px;
+  height: 590px;
+}
+
+.group:after {
+  content: "container2";
+  display: table;
+  clear: both;
+}
+
+hr  {
+background-color: lightgrey;
+height: 3px;
+}
+
+.container2 .wrapper {
+  position: relative;
+  margin-top: 40px;
+
+  background-color: white;
+  width: 650px;
+    float: left;
+  line-height: 25px;
+  font-size: 20px;
+  color: grey;
+}
+
+.pics {
+  float: inherit;
+  padding: 10px;
+  line-height: 40px;
+  text-align: center;
+
+}
+
+
+h3  {
+  margin-top: 10px;
+  text-align: center;
+  font-family: serif;
+  color: #0CADA7;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.container2 .socialMedia {
+  position: relative;
+  margin-top: 40px;
+  width: 270px;
+  float: right;
+  padding: 0px;
+  line-height: 30px;
+  font-size: 18px;
+  color: grey;
+  background-color: white;
+  text-align: center;
+
+}
+
+p {
+  padding: 30px;
+}
+
+.form {
+  padding-left: 20px;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+
+.footerItems {
+  padding: 30px 0; clear: both;
+  margin: auto;
+  background-color: #666666
+    bottom: 0;
+    width: 100%;
+  height: 130px;
+}
+
+.footerItems .footerGreen {
+height: 10px;
+background-color: #0CADA7;
+}
+
+.footerItems .copyWrightBox {
+width: auto;
+height: 150px;
+background-color: grey;
+text-align: center;
+}
+
+
+@media (max-width: 700px) {
+  .container2 {
+    width: 100%;
+    padding: 10px;
+    float: none;
+}
+}
+
+@media (max-width: 550px) {
+  ..container2 {
+width: 100%;
+padding: 10px;
+
+  }
+}
+
+ @media (max-width: 360px) {
+   .container2 {
+     width: 360px;
+}
+ }
+
+ @media (max-width: 540px) {
+   .wrapper {
+     width: 100%;
+ }
+ }
